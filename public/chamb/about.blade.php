@@ -41,17 +41,17 @@
                         </div>
                      </form>
                   </div>
-                  
+
                         
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
                               	
-                                 <li><a href="{{ url ("/contact")}}">Contact</a></li>
+                                <li><a href="{{ url ("/about")}}">About</a></li>
+                                 <li><a href="{{ url ("/profil")}}">Profil</a></li>
                                  <li><a href="{{ url ("/product")}}">Product</a></li>
-                                 <li><a href="{{ url ("/transaksi")}}">Transaksi</a></li>
+                                 <li><a href="{{ url ("/kategori")}}">Kategori</a></li>
                                  <li><a href="{{ url ("/login")}}">Login</a></li>
-
                               </ul>
                            </div>
                         </div>
