@@ -41,18 +41,32 @@
                         </div>
                      </form>
                   </div>
-                  
-                        
+                  <div class="col-md-8 col-sm-12">
+                     <div class="right-nav">
+                        <div class="login-sr">
+                           <div class="login-signup">
+                              <ul>
+                                 <li><a href="#">Login</a></li>
+                                 <li><a class="custom-b" href="#">Sign up</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="help-r hidden-xs">
+                           <div class="help-box">
+                              <ul>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                              </ul>
+                           </div>
+                        </div>
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                              	
-                                 <<li><a href="{{ url ("/about")}}">About</a></li>
+                                 <li><a href="{{ url ("/about")}}">About</a></li>
                                  <li><a href="{{ url ("/profil")}}">Profil</a></li>
                                  <li><a href="{{ url ("/product")}}">Product</a></li>
                                  <li><a href="{{ url ("/kategori")}}">Kategori</a></li>
                                  <li><a href="{{ url ("/login")}}">Login</a></li>
-
                               </ul>
                            </div>
                         </div>
@@ -84,399 +98,145 @@
       <div id="sidebar" class="top-nav">
          <ul id="sidebar-nav" class="sidebar-nav">
             <li><a href="#">Help</a></li>
-            <li><a href="howitworks.html">How it works</a></li>
-            <li><a href="#">chamb for Business</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Chamb for Business</a></li>
          </ul>
       </div>
-      <div class="page-content-product">
-         <div class="main-product">
+      <div class="main-template-about">
+         <div class="section-gradient">
+            <div class="map"></div>
             <div class="container">
-               <div class="row clearfix">
-                  <div class="find-box">
-                     <h1>SELAMAT DATANG DI<br>WEBSITE E-COMMERCE</h1>
-                     <h4>VETY GUSTIAWATI</h4>
-                     <div class="product-sh">
-                        <div class="col-sm-6">
-                           <div class="form-sh">
-                              <input type="text" placeholder="Search something you love" >
-                           </div>
-                        </div>
-                        <div class="col-sm-3">
-                           <div class="form-sh">
-                              <select class="selectpicker">
-                                 <option>Textiles</option>
-                                 <option>Furniture</option>
-                                 <option>Leather</option>
-                              </select>
-                           </div>
-                        </div>
-                        <div class="col-sm-3">
-                           <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
-                        </div>
-                        <p>Or simply<a href="#"> click here </a> and get inspired!</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="row clearfix">
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/1.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/2.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/4.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/5.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/10.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/11.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/12.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/13.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="categories_link">
-                     <a href="#">Browse all categories here</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="cat-main-box">
-         <div class="container">
-            <div class="row panel-row">
-               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.0s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="images/xpann-icon.jpg" class="icon-small" alt="">
-                        <h4>“Chamb” Your Business</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="wow fadeIn" data-wow-delay="0.0s">
+                        <h1>Expand business.
+                           Inspiring you to success.
+                        </h1>
+                        <p class="lead">Here at Chamb, we want you to find new connections, grow profitable relationships, and make more money than you could ever dream of making. Sound like something you’d like to do? Then what are you reading this for?
+                           <br>
+                           <br>
+                           Go sign up and get inspired!
                         </p>
                      </div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="images/create-icon.jpg" class="icon-small" alt="">
-                        <h4>Create and add</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6 wow fadeIn hidden-sm" data-wow-delay="0.4s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="images/get-icon.jpg" class="icon-small" alt="">
-                        <h4>Get inspired</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
-                        </p>
+                     <div class="about-icons row">
+                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.0s"><img src="images/about-icon-1.png" alt=""/></div>
+                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.2s"><img src="images/about-icon-2.png" alt=""/></div>
+                        <div class="col-xs-4 wow fadeIn" data-wow-delay="0.4s"><img src="images/about-icon-3.png" alt=""/></div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-      <div class="products_exciting_box">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                  <div class="exciting_box f_pd">
-                     <img src="images/exciting_img-01.jpg" class="icon-small" alt="" />
-                     <h4>Explore <strong>exciting</strong> and exotic products
-                        tailored to you.
-                     </h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
+         <div class="section do">
+            <div class="blue-light"></div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="does-box">
+                        <div class="panel-body">
+                           <h2>What Does Chamb Do</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                           </p>
+                           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                              voluptatem quia dolore magnam aliquam quaerat voluptatem.
+                           </p>
+                           <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+                              consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel 
+                              illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                           </p>
+                           <p>We took it upon ourselves to change that. We developed a burning desire to create something to bridge the chasms between 
+                              businesses across country and continent. So, with a goal in mind, a skilled team at hand, Chamb sprung forth: the website 
+                              that helps discover and build profitable long-lasting networks amongst businesses around the world.
+                           </p>
+                        </div>
+                        <img class="wow fadeIn" src="images/mac-about.png" alt="" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="seciton create">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <h2>Why Create Chamb</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                      </p>
-                  </div>
-               </div>
-               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                  <div class="exciting_box l_pd">
-                     <img src="images/exciting_img-02.jpg" class="icon-small" alt="" />
-                     <h4><strong>List your products on</strong> chamb and grow connections.</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
+                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                        voluptatem quia dolore magnam aliquam quaerat voluptatem.
+                     </p>
+                     <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+                        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel 
+                        illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                     </p>
+                     <p>We took it upon ourselves to change that. We developed a burning desire to create something to bridge the chasms between 
+                        businesses across country and continent. So, with a goal in mind, a skilled team at hand, Chamb sprung forth: the website 
+                        that helps discover and build profitable long-lasting networks amongst businesses around the world.
                      </p>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-      <div class="start-free-box">
-         <div class="container">
-            <div class="row">
-               <div class="container">
-                  <div class="main-start-box">
-                     <div class="free-box-a clearfix">
-                        <div class="col-md-6 col-sm-6">
-                           <div class="left-a-f">
-                              <h3>A platform built for scale & expansion. Start for free.</h3>
-                           </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                           <div class="right-a-f">
-                              <p>Over the comming years, way thet business through the web
-                                 works will change at agreat - and chamb is the
-                                 gamebreaker.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="main-start-box">
-                  <div class="bg_img_left"><img src="images/bg_img1.png" alt="#" /></div>
-                  <div class="container">
-                     <div class="buyer-box clearfix">
-                        <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                           <div class="left-buyer">
-                              <img class="img-responsive" src="images/creat_pro.png" alt="#" />
-                           </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                           <div class="right-buyer">
-                              <h4>buyer</h4>
-                              <h2>Empower your factory<br>
-                                 <span>With a new lead Channel</span>
-                              </h2>
-                              <p>Never worry about sales or income ftom outbound
-                                 channels. with chamb your store is directly
-                                 connected to thousands of interested in your
-                                 products.
-                              </p>
-                              <a href="#">Create a buyer account</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="bg_img_right"><img src="images/bg_img1.png" alt="#" /></div>
-               <div class="main-start-box">
-                  <div class="container">
-                     <div class="supplier clearfix">
-                        <div class="col-md-5 col-sm-6">
-                           <div class="left-supplier">
-                              <h4>supplier</h4>
-                              <h2>Grow your store <br><span>With a new sales channel</span></h2>
-                              <p>Never worry about sales or income ftom outbound
-                                 channels. with chamb your store is directly
-                                 connected to thousands of interested in your
-                                 products.
-                              </p>
-                              .
-                              <a href="#">Create a supplier account</a>
-                           </div>
-                        </div>
-                        <div class="col-md-7 col-sm-6">
-                           <div class="right-supplier">
-                              <img class="img-responsive" src="images/supplier-pc-img.png" alt="#" />
-                           </div>
-                        </div>
+         <div class="section account-box">
+            <div class="blue-dark"></div>
+            <div class="light-blue-grad"></div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="blue-form">
+                        <h2>Start a free account today</h2>
+                        <form class="form-inline">
+                           <input type="email" placeholder="Enter your e-mail" />
+                           <button type="submit" class="btn btn-primary">Continue</button>
+                        </form>
+                        <p>Easy setup - no payment fees - up to 100 products for free</p>
+                        <div class="blue-form_question"><strong>Questions?</strong> Call us on 12 34 56 78 for help.</div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-      <div class="products">
-         <div class="main-products">
-            <h2>TRENDING PRODUCTS ON CHAMB</h2>
-            <div class="product-slidr">
-               <div class="slider">
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr1.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Table with Lights</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
+         <div class="section-white">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <h2>When, Who and Where?</h2>
+                     <p>Chamb was born in 2014 and has steadily grown from the seed of an idea into a fully-fledged company that, with the power of the internet, employs people from every corner of the planet.</p>
+                     <p>Chamb hails from the Bosporus strait straddling Istanbul. Taking cues from this continent and culture spanning city, we bring people and place together in new and unexpected ways. Chamb may have its roots firmly planted in Turkey, but gaze out across fertile lands of Europe and you’ll see its branches spreading a canopy of connection and possibility across the globe.</p>
                   </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr2.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="col-lg-8 col-lg-offset-2 wow fadeIn" style="margin-bottom:15px;" data-wow-delay="0.2s">
+                     <img class="img-responsive" src="images/lag-60.png" alt="" />
                   </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr3.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Wood Sofaplatform</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <p>Chamb is the brainchild of Bayram Filikci. Danish born with Turkish descent, like the famously business savvy Ottomans of old, Bayram has a flair for creativity and business growth hacking. And along with Chamb’s team, we all count ourselves as passionate entrepreneurs who live for the sole purpose of finding solutions to your problems.</p>
+                     <p>After gaining much experience in building business from scratch and nurturing them to fruition, the team set its sights on creating a gateway that could help fledgling companies establish new relationships that will propel them forward to unrivalled riches.</p>
                   </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr4.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Wall Sticker</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="col-lg-8 col-lg-offset-2 wow fadeIn" style="margin-bottom:15px;" data-wow-delay="0.2s">
+                     <img src="images/lag-61.png" alt="" />
                   </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr1.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <h2>The ball is now yours.</h2>
+                     <p>Over the coming years, the way that business through the web works will change at a great level - and Chamb is the gamebreaker. Customers will expect options of where and how to buy: in-store or online, delivered or for pick-up. It’s an incredibly exciting time for this industry, and we’re going to be right at the centre of it.</p>
+                     <p>So what are you waiting for? Sign up and create oppurtinities for your business.</p>
                   </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr2.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="row">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                           <div class="rectange">
+                              <h3 class="rectange_title">Career opportunities</h3>
+                              <p class="rectange_text">We’re growing, and we’re looking for talented people who can make commerce better.</p>
+                              <a href="" class="rectange_link">See open positions</a>
                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr3.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                           <div class="rectange">
+                              <h3 class="rectange_title">Contact us</h3>
+                              <p class="rectange_text">Have questions or any requests for us? Contact our team and we will get back to you.</p>
+                              <a href="" class="rectange_link">Contact Chamb</a>
                            </div>
                         </div>
                      </div>
@@ -574,7 +334,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2020</p>
+                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
