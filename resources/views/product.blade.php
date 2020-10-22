@@ -16,6 +16,7 @@
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/bootstrap-select.min.css">
       <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="css/select2.min.css">
       <!--responsive css-->
       <link rel="stylesheet" href="css/responsive.css">
    </head>
@@ -41,13 +42,28 @@
                         </div>
                      </form>
                   </div>
-
-                        
+                  <div class="col-md-8 col-sm-12">
+                     <div class="right-nav">
+                        <div class="login-sr">
+                           <div class="login-signup">
+                              <ul>
+                                 <li><a href="#">Login</a></li>
+                                 <li><a class="custom-b" href="#">Sign up</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="help-r hidden-xs">
+                           <div class="help-box">
+                              <ul>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                              </ul>
+                           </div>
+                        </div>
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                              	
-                                <li><a href="{{ url ("/about")}}">About</a></li>
+                                 <li><a href="{{ url ("/about")}}">About</a></li>
                                  <li><a href="{{ url ("/profil")}}">Profil</a></li>
                                  <li><a href="{{ url ("/product")}}">Product</a></li>
                                  <li><a href="{{ url ("/kategori")}}">Kategori</a></li>
@@ -84,402 +100,301 @@
       <div id="sidebar" class="top-nav">
          <ul id="sidebar-nav" class="sidebar-nav">
             <li><a href="#">Help</a></li>
-            <li><a href="howitworks.html">How it works</a></li>
-            <li><a href="#">chamb for Business</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Chamb for Business</a></li>
          </ul>
       </div>
-      <div class="page-content-product">
-         <div class="main-product">
+      <div class="terms-conditions product-page">
+         <div class="terms-title">
             <div class="container">
-               <div class="row clearfix">
-                  <div class="find-box">
-                     <h1>SELAMAT DATANG DI<br>WEBSITE E-COMMERCE</h1>
-                     <h4>VETY GUSTIAWATI</h4>
-                     <div class="product-sh">
-                        <div class="col-sm-6">
-                           <div class="form-sh">
-                              <input type="text" placeholder="Search something you love" >
-                           </div>
-                        </div>
-                        <div class="col-sm-3">
-                           <div class="form-sh">
-                              <select class="selectpicker">
-                                 <option>Textiles</option>
-                                 <option>Furniture</option>
-                                 <option>Leather</option>
-                              </select>
-                           </div>
-                        </div>
-                        <div class="col-sm-3">
-                           <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
-                        </div>
-                        <p>Or simply<a href="#"> click here </a> and get inspired!</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="row clearfix">
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/1.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/2.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/4.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/5.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/10.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/11.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/12.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
-                        <div class="box-img">
-                           <h4>Product</h4>
-                           <img src="images/product/13.png" alt="" />
-                        </div>
-                     </a>
-                  </div>
-                  <div class="categories_link">
-                     <a href="#">Browse all categories here</a>
-                  </div>
+               <div class="row">
+                  <ol class="breadcrumb">
+                     <li><a href="#">Forntpage </a></li>
+                     <li class="active">Furniture</li>
+                     <li class="active">Sofa</li>
+                     <li><a href="#">All setup Sofa</a></li>
+                  </ol>
                </div>
             </div>
          </div>
       </div>
-      <div class="cat-main-box">
-         <div class="container">
-            <div class="row panel-row">
-               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.0s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="images/xpann-icon.jpg" class="icon-small" alt="">
-                        <h4>“Chamb” Your Business</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="images/create-icon.jpg" class="icon-small" alt="">
-                        <h4>Create and add</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-4 col-sm-6 wow fadeIn hidden-sm" data-wow-delay="0.4s">
-                  <div class="panel panel-default">
-                     <div class="panel-body">
-                        <img src="images/get-icon.jpg" class="icon-small" alt="">
-                        <h4>Get inspired</h4>
-                        <p>Grow easily with chamb. Create free account.
-                           We help expanding your business easily.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="products_exciting_box">
+      <div class="product-page-main">
          <div class="container">
             <div class="row">
-               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                  <div class="exciting_box f_pd">
-                     <img src="images/exciting_img-01.jpg" class="icon-small" alt="" />
-                     <h4>Explore <strong>exciting</strong> and exotic products
-                        tailored to you.
-                     </h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                  <div class="exciting_box l_pd">
-                     <img src="images/exciting_img-02.jpg" class="icon-small" alt="" />
-                     <h4><strong>List your products on</strong> chamb and grow connections.</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="start-free-box">
-         <div class="container">
-            <div class="row">
-               <div class="container">
-                  <div class="main-start-box">
-                     <div class="free-box-a clearfix">
-                        <div class="col-md-6 col-sm-6">
-                           <div class="left-a-f">
-                              <h3>A platform built for scale & expansion. Start for free.</h3>
-                           </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                           <div class="right-a-f">
-                              <p>Over the comming years, way thet business through the web
-                                 works will change at agreat - and chamb is the
-                                 gamebreaker.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
+               <div class="col-md-12">
+                  <div class="prod-page-title">
+                     <h2>All setup Sofa</h2>
+                     <p>By <span>Dex Morgan Mobilya</span></p>
                   </div>
                </div>
             </div>
             <div class="row">
-               <div class="main-start-box">
-                  <div class="bg_img_left"><img src="images/bg_img1.png" alt="#" /></div>
-                  <div class="container">
-                     <div class="buyer-box clearfix">
-                        <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                           <div class="left-buyer">
-                              <img class="img-responsive" src="images/creat_pro.png" alt="#" />
+               <div class="col-md-2 col-sm-4">
+                  <div class="left-profile-box-m prod-page">
+                     <div class="pro-img">
+                        <img src="images/150x150.png" alt="#" />
+                     </div>
+                     <div class="pof-text">
+                        <h3>Morgan Mobilya</h3>
+                        <div class="check-box"></div>
+                     </div>
+                     <a href="#">Visit store</a>
+                  </div>
+               </div>
+               <div class="col-md-7 col-sm-8">
+                  <div class="md-prod-page">
+                     <div class="md-prod-page-in">
+                        <div class="page-preview">
+                           <div class="preview">
+                              <div class="preview-pic tab-content">
+                                 <div class="tab-pane active" id="pic-1"><img src="images/lag-60.png" alt="#" /></div>
+                                 <div class="tab-pane" id="pic-2"><img src="images/lag-61.png" alt="#" /></div>
+                                 <div class="tab-pane" id="pic-3"><img src="images/lag-60.png" alt="#" /></div>
+                                 <div class="tab-pane" id="pic-4"><img src="images/lag-61.png" alt="#" /></div>
+                              </div>
+                              <ul class="preview-thumbnail nav nav-tabs">
+                                 <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/lag-60.png" alt="#" /></a></li>
+                                 <li><a data-target="#pic-2" data-toggle="tab"><img src="images/lag-61.png" alt="#" /></a></li>
+                                 <li><a data-target="#pic-3" data-toggle="tab"><img src="images/lag-60.png" alt="#" /></a></li>
+                                 <li><a data-target="#pic-4" data-toggle="tab"><img src="images/lag-61.png" alt="#" /></a></li>
+                              </ul>
                            </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                           <div class="right-buyer">
-                              <h4>buyer</h4>
-                              <h2>Empower your factory<br>
-                                 <span>With a new lead Channel</span>
-                              </h2>
-                              <p>Never worry about sales or income ftom outbound
-                                 channels. with chamb your store is directly
-                                 connected to thousands of interested in your
-                                 products.
-                              </p>
-                              <a href="#">Create a buyer account</a>
+                        <div class="btn-dit-list clearfix">
+                           <div class="left-dit-p">
+                              <div class="prod-btn">
+                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                 <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                 <p>23 likes</p>
+                              </div>
+                           </div>
+                           <div class="right-dit-p">
+                              <div class="like-list">
+                                 <ul>
+                                    <li>
+                                       <div class="im-b"><img class="" src="images/list-img-01.png" alt=""></div>
+                                    </li>
+                                    <li>
+                                       <div class="im-b"><img src="images/list-img-02.png" alt=""></div>
+                                    </li>
+                                    <li>
+                                       <div class="im-b"><img src="images/list-img-03.png" alt=""></div>
+                                    </li>
+                                    <li>
+                                       <div class="im-b"><img src="images/list-img-04.png" alt=""></div>
+                                    </li>
+                                    <li>
+                                       <div class="im-b"><img src="images/list-img-05.png" alt=""></div>
+                                    </li>
+                                    <li>
+                                       <div class="im-b"><img src="images/list-img-06.png" alt=""></div>
+                                    </li>
+                                    <li>
+                                       <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="description-box">
+                        <div class="dex-a">
+                           <h4>Description</h4>
+                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                              lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                              when an unknown printer took a galley of type and scrambled it to make a 
+                              type specimen book..
+                           </p>
+                           <br>
+                           <p>Small: H 25 cm / &Oslash; 12 cm</p>
+                           <p>Large H 24 cm / &Oslash; 25 cm</p>
+                        </div>
+                        <div class="spe-a">
+                           <h4>Specifications</h4>
+                           <ul>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Measurments</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>H25 cm / 0 12 cm and H 24 cm / 0 25 cm</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Material</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>Material Name</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Wire</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>Wire Name</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Comdition</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>Brand new</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>SKU number</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>SKU number</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Shipping</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>Shipping worldwide</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Warranty</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>1 years</p>
+                                 </div>
+                              </li>
+                              <li class="clearfix">
+                                 <div class="col-md-4">
+                                    <h5>Delivery</h5>
+                                 </div>
+                                 <div class="col-md-8">
+                                    <p>Choose country</p>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="similar-box">
+                     <h2>Similiar products from Morgan Mobilya</h2>
+                     <div class="row cat-pd">
+                        <div class="col-md-6">
+                           <div class="small-box-c">
+                              <div class="small-img-b">
+                                 <img class="img-responsive" src="images/tr1.png" alt="#" />
+                              </div>
+                              <div class="dit-t clearfix">
+                                 <div class="left-ti">
+                                    <h4>Product</h4>
+                                    <p>By <span>Beko</span> under <span>Lights</span></p>
+                                 </div>
+                                 <a href="#" tabindex="0">$1220</a>
+                              </div>
+                              <div class="prod-btn">
+                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                 <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                 <p>23 likes</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="small-box-c">
+                              <div class="small-img-b">
+                                 <img class="img-responsive" src="images/tr2.png" alt="#" />
+                              </div>
+                              <div class="dit-t clearfix">
+                                 <div class="left-ti">
+                                    <h4>Product</h4>
+                                    <p>By <span>Beko</span> under <span>Chairs</span></p>
+                                 </div>
+                                 <a href="#" tabindex="0">$1220</a>
+                              </div>
+                              <div class="prod-btn">
+                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                 <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                 <p>23 likes</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row cat-pd">
+                        <div class="col-md-6">
+                           <div class="small-box-c">
+                              <div class="small-img-b">
+                                 <img class="img-responsive" src="images/tr3.png" alt="#" />
+                              </div>
+                              <div class="dit-t clearfix">
+                                 <div class="left-ti">
+                                    <h4>Product</h4>
+                                    <p>By <span>Beko</span> under <span>Lights</span></p>
+                                 </div>
+                                 <a href="#" tabindex="0">$1220</a>
+                              </div>
+                              <div class="prod-btn">
+                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                 <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                 <p>23 likes</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="small-box-c">
+                              <div class="small-img-b">
+                                 <img class="img-responsive" src="images/tr4.png" alt="#" />
+                              </div>
+                              <div class="dit-t clearfix">
+                                 <div class="left-ti">
+                                    <h4>Product</h4>
+                                    <p>By <span>Beko</span> under <span>Chairs</span></p>
+                                 </div>
+                                 <a href="#" tabindex="0">$1220</a>
+                              </div>
+                              <div class="prod-btn">
+                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
+                                 <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
+                                 <p>23 likes</p>
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
-            <div class="row">
-               <div class="bg_img_right"><img src="images/bg_img1.png" alt="#" /></div>
-               <div class="main-start-box">
-                  <div class="container">
-                     <div class="supplier clearfix">
-                        <div class="col-md-5 col-sm-6">
-                           <div class="left-supplier">
-                              <h4>supplier</h4>
-                              <h2>Grow your store <br><span>With a new sales channel</span></h2>
-                              <p>Never worry about sales or income ftom outbound
-                                 channels. with chamb your store is directly
-                                 connected to thousands of interested in your
-                                 products.
-                              </p>
-                              .
-                              <a href="#">Create a supplier account</a>
-                           </div>
-                        </div>
-                        <div class="col-md-7 col-sm-6">
-                           <div class="right-supplier">
-                              <img class="img-responsive" src="images/supplier-pc-img.png" alt="#" />
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="products">
-         <div class="main-products">
-            <h2>TRENDING PRODUCTS ON CHAMB</h2>
-            <div class="product-slidr">
-               <div class="slider">
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr1.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Table with Lights</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr2.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr3.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Wood Sofaplatform</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr4.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Wall Sticker</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr1.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr2.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="prod-box">
-                        <div class="prod-i">
-                           <img src="images/tr3.png" alt="#" />
-                        </div>
-                        <div class="prod-dit clearfix">
-                           <div class="dit-t clearfix">
-                              <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
-                                 <p>By <span>Beko</span> under <span>Lights</span></p>
-                              </div>
-                              <a href="#">$1220</a>
-                           </div>
-                           <div class="dit-btn clearfix">
-                              <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
-                              <a class="thi" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                           </div>
-                        </div>
-                     </div>
+               <div class="col-md-3 col-sm-12">
+                  <div class="price-box-right">
+                     <h4>Price</h4>
+                     <h3>$1.320 <span>pr.peice</span></h3>
+                     <p>Option</p>
+                     <select class="form-control select2">
+                        <option>Flying Carpet Green rug</option>
+                        <option value="AK">Alaska</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="CA">California</option>
+                        <option value="NV">Nevada</option>
+                        <option value="OR">Oregon</option>
+                        <option value="WA">Washington</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="CO">Colorado</option>
+                        <option value="ID">Idaho</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="UT">Utah</option>
+                        <option value="WY">Wyoming</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                     </select>
+                     <a href="#">Contact company</a>
+                     <h5><i class="fa fa-clock-o" aria-hidden="true"></i> <strong>16 hours</strong> avg. responsive time</h5>
                   </div>
                </div>
             </div>
@@ -574,7 +489,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2020</p>
+                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
@@ -613,7 +528,8 @@
       <script src="js/bootstrap.min.js"></script> 
       <script src="js/bootstrap-select.min.js"></script>
       <script src="js/slick.min.js"></script> 
-      <script src="js/wow.min.js"></script>
+      <script src="js/select2.full.min.js"></script> 
+      <script src="js/wow.min.js"></script> 
       <!--custom js--> 
       <script src="js/custom.js"></script>
    </body>
