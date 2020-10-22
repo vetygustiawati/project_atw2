@@ -19,14 +19,17 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view("index");
 });
-Route::get('/contact', function () {
-    return view("contact");
+Route::get('/about', function () {
+    return view("about");
+});
+Route::get('/profil', function () {
+    return view("profil");
 });
 Route::get('/product', function () {
     return view("product");
 });
-Route::get('/transaksi', function () {
-    return view("transaksi");
+Route::get('/kategori', function () {
+    return view("kategori");
 });
 Route::get('/login', function () {
     return view("login");
