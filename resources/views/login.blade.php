@@ -41,16 +41,7 @@
                         </div>
                      </form>
                   </div>
-                  <div class="col-md-8 col-sm-12">
-                     <div class="right-nav">
-                        <div class="login-sr">
-                           <div class="login-signup">
-                              <ul>
-                                 <li><a href="#">Login</a></li>
-                                 <li><a class="custom-b" href="#">Sign up</a></li>
-                              </ul>
-                           </div>
-                        </div>
+                  
                         
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
