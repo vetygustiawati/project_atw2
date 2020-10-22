@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>Chamb - Responsive E-commerce HTML5 Template</title>
+      <title>E-COMMERCE VETY GUSTIAWATI</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,22 +41,13 @@
                         </div>
                      </form>
                   </div>
-                  <div class="col-md-8 col-sm-12">
-                     <div class="right-nav">
-                        <div class="login-sr">
-                           <div class="login-signup">
-                              <ul>
-                                 <li><a href="#">Login</a></li>
-                                 <li><a class="custom-b" href="#">Sign up</a></li>
-                              </ul>
-                           </div>
-                        </div>
+
                         
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
                               	
-                                 <li><a href="{{ url ("/profil")}}">Profil</a></li>
+                                 <li><a href="{{ url ("/contact")}}">Contact</a></li>
                                  <li><a href="{{ url ("/product")}}">Product</a></li>
                                  <li><a href="{{ url ("/transaksi")}}">Transaksi</a></li>
                                  <li><a href="{{ url ("/login")}}">Login</a></li>
